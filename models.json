@@ -124,6 +124,18 @@
     "urls": [
       "https://huggingface.co/TheBloke/Nous-Hermes-2-Mixtral-8x7B-SFT-GGUF/resolve/main/nous-hermes-2-mixtral-8x7b-sft.Q5_K_M.gguf"
     ],
-    "sha256": "763dccfb56b3e8e2b8fbfd9c06d6ecc928f8fcff8842a78f2b959e8cf0700704"
+    "sha256": "763dccfb56b3e8e2b8fbfd9c06d6ecc928f8fcff8842a78f2b959e8cf0700704",
+    "chat_template": "<s>{% for message in messages %}{% if (message['role'] == 'user') != (loop.index0 % 2 == 0) %}{{ raise_exception('Conversation roles must alternate user/assistant/user/assistant/...') }}{% endif %}{% if message['role'] == 'user' %}{{ '[INST] ' + message['content'] + ' [/INST]' }}{% elif message['role'] == 'assistant' %}{{ message['content'] + '</s> ' }}{% else %}{{ raise_exception('Only user and assistant roles are supported!') }}{% endif %}{% endfor %}"
+  },
+  {
+    "license_name": "Apache 2.0",
+    "license_url": "https://choosealicense.com/licenses/apache-2.0/",
+    "name": "Beyonder",
+    "provider_url": "https://huggingface.co/TheBloke/Beyonder-4x7B-v2-GGUF",
+    "urls": [
+      "https://huggingface.co/TheBloke/Beyonder-4x7B-v2-GGUF/resolve/main/beyonder-4x7b-v2.Q5_K_M.gguf"
+    ],
+    "sha256": "6511f202fc38bfeb0327015475428ca3906786176582b982cb9a0882f87630f4",
+    "prompt_template": "<|im_start|>system {system_message}<|im_end|> <|im_start|>user {prompt}<|im_end|> <|im_start|>assistant"
   }
 ]
