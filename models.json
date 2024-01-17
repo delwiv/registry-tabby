@@ -115,5 +115,15 @@
       "https://huggingface.co/TheBloke/deepseek-coder-6.7B-base-GGUF/resolve/main/deepseek-coder-6.7b-base.Q8_0.gguf"
     ],
     "sha256": "a2f82242ac5e465037cbf1ed754f04f0be044ee196e1589905f9e4dcd0e6559d"
+  },
+  {
+    "license_name": "Apache 2.0",
+    "license_url": "https://choosealicense.com/licenses/apache-2.0/",
+    "name": "NousHermes",
+    "provider_url": "https://huggingface.co/TheBloke/Nous-Hermes-2-Mixtral-8x7B-SFT-GGUF",
+    "urls": [
+      "https://huggingface.co/TheBloke/Nous-Hermes-2-Mixtral-8x7B-SFT-GGUF/resolve/main/nous-hermes-2-mixtral-8x7b-sft.Q5_K_M.gguf"
+    ],
+    "sha256": "763dccfb56b3e8e2b8fbfd9c06d6ecc928f8fcff8842a78f2b959e8cf0700704"
   }
 ]
