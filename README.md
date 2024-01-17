@@ -7,8 +7,6 @@ We recommend using
 * For **1B to 3B models**, it's advisable to have at least **NVIDIA T4, 10 Series, or 20 Series GPUs**.
 * For **7B to 13B models**, we recommend using **NVIDIA V100, A100, 30 Series, or 40 Series GPUs**.
 
-We have published benchmarks for these models on https://leaderboard.tabbyml.com for Tabby's users to consider when making trade-offs between quality, licensing, and model size.
-
 | Model ID | License |
 | -------- | ------- |
 | [TabbyML/StarCoder-1B](https://huggingface.co/bigcode/starcoderbase-1b) | [BigCode-OpenRAIL-M](https://huggingface.co/spaces/bigcode/bigcode-model-license-agreement) |
@@ -28,3 +26,4 @@ To ensure optimal response quality, and given that latency requirements are not 
 | -------- | ------- |
 | [TabbyML/WizardCoder-3B](https://huggingface.co/WizardLM/WizardCoder-3B-V1.0) | [BigCode-OpenRAIL-M](https://huggingface.co/spaces/bigcode/bigcode-model-license-agreement) |
 | [TabbyML/Mistral-7B](https://huggingface.co/mistralai/Mistral-7B-v0.1) | [Apache 2.0](https://choosealicense.com/licenses/apache-2.0/) |
+| [TabbyML/EveryoneCoder-4x7](https://huggingface.co/TheBloke/Everyone-Coder-4x7b-Base-GGUF) | [Apache 2.0](https://choosealicense.com/licenses/apache-2.0/) |

@@ -69,6 +69,14 @@
   - https://modelscope.cn/api/v1/models/TabbyML/Mistral-7B/repo?FilePath=ggml/q8_0.v2.gguf
   sha256: 5ac3ba2eecc4f41d0cd65a5e6d875d38d4c3dd4ebb1161b85e5134817b484938
 
+- name: EveryoneCoder-4x7
+  <<: *mistral-series
+  provider_url: https://huggingface.co/TheBloke/Everyone-Coder-4x7b-Base-GGUF
+  urls:
+    - https://huggingface.co/TheBloke/Everyone-Coder-4x7b-Base-GGUF/resolve/main/everyone-coder-4x7b-base.Q5_K_M.gguf
+  sha256: 88c8695904fe9661edb81dffc9154d36279b5e3dbb4c287654771e8c019feb19
+  chat_template: "<s>{% for message in messages %}{% if (message['role'] == 'user') != (loop.index0 % 2 == 0) %}{{ raise_exception('Conversation roles must alternate user/assistant/user/assistant/...') }}{% endif %}{% if message['role'] == 'user' %}{{ '[INST] ' + message['content'] + ' [/INST]' }}{% elif message['role'] == 'assistant' %}{{ message['content'] + '</s> ' }}{% else %}{{ raise_exception('Only user and assistant roles are supported!') }}{% endif %}{% endfor %}"
+
 - name: DeepseekCoder-1.3B
   <<: &deepseek-series
     license_name: Deepseek License
