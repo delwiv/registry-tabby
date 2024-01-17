@@ -73,8 +73,8 @@
   <<: *mistral-series
   provider_url: https://huggingface.co/TheBloke/Everyone-Coder-4x7b-Base-GGUF
   urls:
-    - https://huggingface.co/TheBloke/Everyone-Coder-4x7b-Base-GGUF/resolve/main/everyone-coder-4x7b-base.Q5_K_M.gguf
-  sha256: 88c8695904fe9661edb81dffc9154d36279b5e3dbb4c287654771e8c019feb19
+    - https://huggingface.co/TheBloke/Everyone-Coder-4x7b-Base-GGUF/resolve/main/everyone-coder-4x7b-base.Q4_K_M.gguf
+  sha256: 52b89d7141536695a8565e839bb0b47523773cd412cb5c013126421d8e765662
   chat_template: "<s>{% for message in messages %}{% if (message['role'] == 'user') != (loop.index0 % 2 == 0) %}{{ raise_exception('Conversation roles must alternate user/assistant/user/assistant/...') }}{% endif %}{% if message['role'] == 'user' %}{{ '[INST] ' + message['content'] + ' [/INST]' }}{% elif message['role'] == 'assistant' %}{{ message['content'] + '</s> ' }}{% else %}{{ raise_exception('Only user and assistant roles are supported!') }}{% endif %}{% endfor %}"
 
 - name: DeepseekCoder-1.3B
