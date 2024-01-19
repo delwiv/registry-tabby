@@ -72,29 +72,6 @@
     "sha256": "9397dda06b86612682ec019b347d78eb4ad9ce8efeefe1366ff5483359ed8c07"
   },
   {
-    "license_name": "Apache 2.0",
-    "license_url": "https://choosealicense.com/licenses/apache-2.0/",
-    "name": "Mistral-7B",
-    "provider_url": "https://huggingface.co/mistralai/Mistral-7B-v0.1",
-    "chat_template": "<s>{% for message in messages %}{% if (message['role'] == 'user') != (loop.index0 % 2 == 0) %}{{ raise_exception('Conversation roles must alternate user/assistant/user/assistant/...') }}{% endif %}{% if message['role'] == 'user' %}{{ '[INST] ' + message['content'] + ' [/INST]' }}{% elif message['role'] == 'assistant' %}{{ message['content'] + '</s> ' }}{% else %}{{ raise_exception('Only user and assistant roles are supported!') }}{% endif %}{% endfor %}",
-    "urls": [
-      "https://huggingface.co/TabbyML/Mistral-7B/resolve/main/ggml/q8_0.v2.gguf",
-      "https://modelscope.cn/api/v1/models/TabbyML/Mistral-7B/repo?FilePath=ggml/q8_0.v2.gguf"
-    ],
-    "sha256": "5ac3ba2eecc4f41d0cd65a5e6d875d38d4c3dd4ebb1161b85e5134817b484938"
-  },
-  {
-    "license_name": "Apache 2.0",
-    "license_url": "https://choosealicense.com/licenses/apache-2.0/",
-    "name": "EveryoneCoder-4x7",
-    "provider_url": "https://huggingface.co/TheBloke/Everyone-Coder-4x7b-Base-GGUF",
-    "urls": [
-      "https://huggingface.co/TheBloke/Everyone-Coder-4x7b-Base-GGUF/resolve/main/everyone-coder-4x7b-base.Q4_K_M.gguf"
-    ],
-    "sha256": "52b89d7141536695a8565e839bb0b47523773cd412cb5c013126421d8e765662",
-    "chat_template": "<s>{% for message in messages %}{% if (message['role'] == 'user') != (loop.index0 % 2 == 0) %}{{ raise_exception('Conversation roles must alternate user/assistant/user/assistant/...') }}{% endif %}{% if message['role'] == 'user' %}{{ '[INST] ' + message['content'] + ' [/INST]' }}{% elif message['role'] == 'assistant' %}{{ message['content'] + '</s> ' }}{% else %}{{ raise_exception('Only user and assistant roles are supported!') }}{% endif %}{% endfor %}"
-  },
-  {
     "license_name": "Deepseek License",
     "license_url": "https://github.com/deepseek-ai/deepseek-coder/blob/main/LICENSE-MODEL",
     "prompt_template": "<｜fim▁begin｜>{prefix}<｜fim▁hole｜>{suffix}<｜fim▁end｜>",
@@ -110,32 +87,10 @@
     "license_url": "https://github.com/deepseek-ai/deepseek-coder/blob/main/LICENSE-MODEL",
     "prompt_template": "<｜fim▁begin｜>{prefix}<｜fim▁hole｜>{suffix}<｜fim▁end｜>",
     "name": "DeepseekCoder-6.7B",
-    "provider_url": "https://huggingface.co/deepseek-ai/deepseek-coder-6.7b-base",
+    "provider_url": "https://huggingface.co/deepseek-ai/deepseek-coder-6.7b-instruct",
     "urls": [
-      "https://huggingface.co/TheBloke/deepseek-coder-6.7B-base-GGUF/resolve/main/deepseek-coder-6.7b-base.Q5_K_M.gguf"
+      "https://huggingface.co/TheBloke/deepseek-coder-6.7B-instruct-GGUF/resolve/main/deepseek-coder-6.7b-instruct.Q5_K_M.gguf"
     ],
-    "sha256": "de874d119b3a8e6e7d5ca066cc8e8c0038196c9b3524a50ed2c967a1bcb641b9"
-  },
-  {
-    "license_name": "Apache 2.0",
-    "license_url": "https://choosealicense.com/licenses/apache-2.0/",
-    "name": "NousHermes",
-    "provider_url": "https://huggingface.co/TheBloke/Nous-Hermes-2-Mixtral-8x7B-SFT-GGUF",
-    "urls": [
-      "https://huggingface.co/TheBloke/Nous-Hermes-2-Mixtral-8x7B-SFT-GGUF/resolve/main/nous-hermes-2-mixtral-8x7b-sft.Q5_K_M.gguf"
-    ],
-    "sha256": "763dccfb56b3e8e2b8fbfd9c06d6ecc928f8fcff8842a78f2b959e8cf0700704",
-    "chat_template": "<s>{% for message in messages %}{% if (message['role'] == 'user') != (loop.index0 % 2 == 0) %}{{ raise_exception('Conversation roles must alternate user/assistant/user/assistant/...') }}{% endif %}{% if message['role'] == 'user' %}{{ '[INST] ' + message['content'] + ' [/INST]' }}{% elif message['role'] == 'assistant' %}{{ message['content'] + '</s> ' }}{% else %}{{ raise_exception('Only user and assistant roles are supported!') }}{% endif %}{% endfor %}"
-  },
-  {
-    "license_name": "Apache 2.0",
-    "license_url": "https://choosealicense.com/licenses/apache-2.0/",
-    "name": "Beyonder",
-    "provider_url": "https://huggingface.co/TheBloke/Beyonder-4x7B-v2-GGUF",
-    "urls": [
-      "https://huggingface.co/TheBloke/Beyonder-4x7B-v2-GGUF/resolve/main/beyonder-4x7b-v2.Q5_K_M.gguf"
-    ],
-    "sha256": "6511f202fc38bfeb0327015475428ca3906786176582b982cb9a0882f87630f4",
-    "prompt_template": "<|im_start|>system {system_message}<|im_end|> <|im_start|>user {prompt}<|im_end|> <|im_start|>assistant"
+    "sha256": "0976ee1707fc97b142d7266a9a501893ea6f320e8a8227aa1f04bcab74a5f556"
   }
 ]
