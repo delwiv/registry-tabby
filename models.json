@@ -112,9 +112,9 @@
     "name": "DeepseekCoder-6.7B",
     "provider_url": "https://huggingface.co/deepseek-ai/deepseek-coder-6.7b-base",
     "urls": [
-      "https://huggingface.co/TheBloke/deepseek-coder-6.7B-base-GGUF/resolve/main/deepseek-coder-6.7b-base.Q8_0.gguf"
+      "https://huggingface.co/TheBloke/deepseek-coder-6.7B-base-GGUF/resolve/main/deepseek-coder-6.7b-base.Q5_K_M.gguf"
     ],
-    "sha256": "a2f82242ac5e465037cbf1ed754f04f0be044ee196e1589905f9e4dcd0e6559d"
+    "sha256": "de874d119b3a8e6e7d5ca066cc8e8c0038196c9b3524a50ed2c967a1bcb641b9"
   },
   {
     "license_name": "Apache 2.0",
@@ -137,16 +137,5 @@
     ],
     "sha256": "6511f202fc38bfeb0327015475428ca3906786176582b982cb9a0882f87630f4",
     "prompt_template": "<|im_start|>system {system_message}<|im_end|> <|im_start|>user {prompt}<|im_end|> <|im_start|>assistant"
-  },
-  {
-    "name": "stable-code-3b",
-    "license_name": "STABILITY AI",
-    "license_url": "https://huggingface.co/stabilityai/stable-code-3b/blob/main/LICENSE",
-    "prompt_template": "<fim_prefix>{prefix}<fim_suffix>{suffix}<fim_middle>",
-    "provider_url": "https://huggingface.co/stabilityai/stable-code-3b/",
-    "urls": [
-      "https://huggingface.co/stabilityai/stable-code-3b/resolve/main/stable-code-3b-Q6_K.gguf"
-    ],
-    "sha256": "9749DAF176491C33A7318660F1637C97674B0070D81740BE8763B2811C495BFC"
   }
 ]
