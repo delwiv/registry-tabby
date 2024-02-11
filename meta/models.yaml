@@ -110,3 +110,9 @@
   urls:
     - https://huggingface.co/TheBloke/Mixtral-8x7B-Instruct-v0.1-GGUF/resolve/main/mixtral-8x7b-instruct-v0.1.Q5_K_M.gguf
   sha256:	af12961e014037ee8c5c9f3bf7cf9fd99cadc9dabd50f528a4248c4a8ee8fe77
+
+- name: code-290k-q5
+  provider_url: https://huggingface.co/TheBloke/Code-290k-13B-GGUF
+  urls: 
+    - https://huggingface.co/TheBloke/Code-290k-13B-GGUF/resolve/main/code-290k-13b.Q5_K_M.gguf
+  sha256: cd58bcbaf2e3ca3c6d2568f22374cd57e52f0357cd54cdd13eab551cc55ef15b
