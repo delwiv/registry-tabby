@@ -143,5 +143,13 @@
       "https://huggingface.co/TheBloke/Code-290k-13B-GGUF/resolve/main/code-290k-13b.Q5_K_M.gguf"
     ],
     "sha256": "cd58bcbaf2e3ca3c6d2568f22374cd57e52f0357cd54cdd13eab551cc55ef15b"
+  },
+  {
+    "name": "dolphin-7b",
+    "provider_url": "https://huggingface.co/TheBloke/dolphin-2.6-mistral-7B-dpo-GGUF",
+    "urls": [
+      "https://huggingface.co/TheBloke/dolphin-2.6-mistral-7B-dpo-GGUF/resolve/main/dolphin-2.6-mistral-7b-dpo.Q5_K_M.gguf"
+    ],
+    "sha256": "0211d460989fd84f868d82c2722240ab8e7210722bf46065a3775b8a194c36c5"
   }
 ]
