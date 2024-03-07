@@ -151,5 +151,13 @@
       "https://huggingface.co/TheBloke/dolphin-2.6-mistral-7B-dpo-GGUF/resolve/main/dolphin-2.6-mistral-7b-dpo.Q5_K_M.gguf"
     ],
     "sha256": "0211d460989fd84f868d82c2722240ab8e7210722bf46065a3775b8a194c36c5"
+  },
+  {
+    "name": "yi-9b",
+    "provider_url": "https://huggingface.co/TouchNight/Yi-9B-GGUF",
+    "urls": [
+      "https://huggingface.co/TouchNight/Yi-9B-GGUF/resolve/main/Yi-9B-Q5_K_M.gguf"
+    ],
+    "sha256": "eb2d92ae92603f24ed72c779e7853d93a42f42f4f29455e9bfe264a65b1b8b81"
   }
 ]
