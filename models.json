@@ -108,12 +108,12 @@
     "license_name": "Deepseek License",
     "license_url": "https://github.com/deepseek-ai/deepseek-coder/blob/main/LICENSE-MODEL",
     "prompt_template": "<｜fim▁begin｜>{prefix}<｜fim▁hole｜>{suffix}<｜fim▁end｜>",
-    "name": "DeepseekCoder-33B",
+    "name": "codefuse-deepseek-33B",
     "provider_url": "https://huggingface.co/TheBloke/deepseek-coder-33B-instruct-GGUF",
     "urls": [
-      "https://huggingface.co/TheBloke/deepseek-coder-33B-instruct-GGUF/resolve/main/deepseek-coder-33b-instruct.Q4_K_M.gguf"
+      "https://huggingface.co/dranger003/CodeFuse-DeepSeek-33B-iMat.GGUF/resolve/main/ggml-codefuse-deepseek-33b-iq4_xs.gguf"
     ],
-    "sha256": "e76518575f9d367b0a04278cd027c51e53519506b4316b4d368e853a42bfe790"
+    "sha256": "61199d90a950843a57b2f3d17dd133731151e13876b5f85135f37bf8e21b0e63"
   },
   {
     "license_name": "Apache 2.0",
