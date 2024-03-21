@@ -123,6 +123,12 @@
     - https://huggingface.co/TheBloke/dolphin-2.6-mistral-7B-dpo-GGUF/resolve/main/dolphin-2.6-mistral-7b-dpo.Q5_K_M.gguf
   sha256:	0211d460989fd84f868d82c2722240ab8e7210722bf46065a3775b8a194c36c5
 
+- name: command-r-35b
+  provider_url: https://huggingface.co/dranger003/c4ai-command-r-v01-iMat.GGUF
+  urls:
+    - https://huggingface.co/dranger003/c4ai-command-r-v01-iMat.GGUF/resolve/main/ggml-c4ai-command-r-35b-v01-iq4_xs.gguf
+  sha256: 150d8c322f85547ef2ec24bf06d6a87a231549972acfe2a2886e0d0fd55ba592
+
 - name: yi-9b
   provider_url: https://huggingface.co/TouchNight/Yi-9B-GGUF
   urls:
