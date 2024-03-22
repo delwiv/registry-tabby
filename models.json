@@ -161,6 +161,14 @@
     "sha256": "150d8c322f85547ef2ec24bf06d6a87a231549972acfe2a2886e0d0fd55ba592"
   },
   {
+    "name": "command-r-35b-iq3xs",
+    "provider_url": "https://huggingface.co/dranger003/c4ai-command-r-v01-iMat.GGUF",
+    "urls": [
+      "https://huggingface.co/dranger003/c4ai-command-r-v01-iMat.GGUF/resolve/main/ggml-c4ai-command-r-35b-v01-iq3_xs.gguf"
+    ],
+    "sha256": "21cb53c196c7f281f9f5aeb83f56d50b3bef0d41ed38267e9944ce505bb61d02"
+  },
+  {
     "name": "yi-9b",
     "provider_url": "https://huggingface.co/TouchNight/Yi-9B-GGUF",
     "urls": [
