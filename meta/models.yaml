@@ -140,3 +140,14 @@
   urls:
     - https://huggingface.co/TouchNight/Yi-9B-GGUF/resolve/main/Yi-9B-Q5_K_M.gguf
   sha256: eb2d92ae92603f24ed72c779e7853d93a42f42f4f29455e9bfe264a65b1b8b81
+
+- name: ocids-33b
+  provider_url: https://huggingface.co/dranger003/OpenCodeInterpreter-DS-33B-iMat.GGUF
+  urls:
+    - https://huggingface.co/dranger003/OpenCodeInterpreter-DS-33B-iMat.GGUF/resolve/main/ggml-opencodeinterpreter-ds-33b-iq4_xs.gguf
+  sha256: 5727e422c75b827f88068248f8abe383f28d661d3c6d46fa633f76f574652943
+  prompt_template: "<｜begin▁of▁sentence｜>[INST] <<SYS>>
+{prefix}
+<</SYS>>
+
+{suffix} [/INST]"
