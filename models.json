@@ -184,5 +184,13 @@
     ],
     "sha256": "5727e422c75b827f88068248f8abe383f28d661d3c6d46fa633f76f574652943",
     "prompt_template": "<｜begin▁of▁sentence｜>[INST] <<SYS>> {prefix} <</SYS>>\n{suffix} [/INST]"
+  },
+  {
+    "name": "ocids-33b-q4",
+    "provider_url": "https://huggingface.co/LoneStriker/OpenCodeInterpreter-DS-33B-GGUF",
+    "urls": [
+      "https://huggingface.co/LoneStriker/OpenCodeInterpreter-DS-33B-GGUF/resolve/main/OpenCodeInterpreter-DS-33B-Q4_K_M.gguf"
+    ],
+    "sha256": "f75f2340f25824d51144b1f9ede3eb26a5a0906cdcf0b0297cdcf46c347fff8e"
   }
 ]
