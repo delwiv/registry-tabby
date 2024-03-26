@@ -141,6 +141,12 @@
     - https://huggingface.co/TouchNight/Yi-9B-GGUF/resolve/main/Yi-9B-Q5_K_M.gguf
   sha256: eb2d92ae92603f24ed72c779e7853d93a42f42f4f29455e9bfe264a65b1b8b81
 
+- name: ocids-q8
+  provider_url: https://huggingface.co/LoneStriker/OpenCodeInterpreter-DS-6.7B-GGUF
+  urls:
+    - https://huggingface.co/LoneStriker/OpenCodeInterpreter-DS-6.7B-GGUF/resolve/main/OpenCodeInterpreter-DS-6.7B-Q8_0.gguf
+  sha256:	1a89919b11075ae24ae534306aa1712a4707ba27ad8be33eb33967e3fa56e1b0
+
 - name: ocids-33b
   provider_url: https://huggingface.co/dranger003/OpenCodeInterpreter-DS-33B-iMat.GGUF
   urls:
