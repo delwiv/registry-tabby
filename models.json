@@ -199,5 +199,13 @@
       "https://huggingface.co/LoneStriker/OpenCodeInterpreter-DS-33B-GGUF/resolve/main/OpenCodeInterpreter-DS-33B-Q4_K_M.gguf"
     ],
     "sha256": "f75f2340f25824d51144b1f9ede3eb26a5a0906cdcf0b0297cdcf46c347fff8e"
+  },
+  {
+    "name": "ocids-7b",
+    "provider_url": "https://huggingface.co/LoneStriker/OpenCodeInterpreter-DS-7B-GGUF",
+    "urls": [
+      "https://huggingface.co/LoneStriker/OpenCodeInterpreter-DS-6.7B-GGUF/resolve/main/OpenCodeInterpreter-DS-6.7B-Q6_K.gguf"
+    ],
+    "sha256": "dbe8bd6a4b450311304d5e214dc81bd068b76f8d35c6d18e2d2ce3e309b97fab"
   }
 ]
