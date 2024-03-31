@@ -207,5 +207,13 @@
       "https://huggingface.co/LoneStriker/OpenCodeInterpreter-DS-6.7B-GGUF/resolve/main/OpenCodeInterpreter-DS-6.7B-Q6_K.gguf"
     ],
     "sha256": "dbe8bd6a4b450311304d5e214dc81bd068b76f8d35c6d18e2d2ce3e309b97fab"
+  },
+  {
+    "name": "qwen-14b",
+    "provider_url": "https://huggingface.co/Qwen/Qwen1.5-14B-Chat-GGUF",
+    "urls": [
+      "https://huggingface.co/Qwen/Qwen1.5-14B-Chat-GGUF/resolve/main/qwen1_5-14b-chat-q6_k.gguf"
+    ],
+    "sha256": "0a8e85d4f88d2f7877e8f09af1c2324d10b8c41b1f154bb3ab2cbda8a5f2a22a"
   }
 ]
