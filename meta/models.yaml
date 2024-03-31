@@ -167,6 +167,26 @@
 
 - name: qwen-14b
   provider_url: https://huggingface.co/Qwen/Qwen1.5-14B-Chat-GGUF
+  chat_template: "
+    {% if messages[0]['role'] == 'system' %}
+      {% set offset = 1 %}
+    {% else %}
+        {% set offset = 0 %}
+    {% endif %}
+    
+    {{ bos_token }}
+    {% for message in messages %}
+        {% if (message['role'] == 'user') != (loop.index0 % 2 == offset) %}
+            {{ raise_exception('Conversation roles must alternate user/assistant/user/assistant/...') }}
+        {% endif %}
+        
+        {{ '<|im_start|>' + message['role'] + '\n' + message['content'].strip() + '<|im_end|>\n' }}
+        
+        {% if loop.last and message['role'] == 'user' and add_generation_prompt %}
+            {{ '<|im_start|>assistant\n' }}
+        {% endif %}
+    {% endfor %}
+  "
   urls:
     - https://huggingface.co/Qwen/Qwen1.5-14B-Chat-GGUF/resolve/main/qwen1_5-14b-chat-q6_k.gguf
   sha256: 0a8e85d4f88d2f7877e8f09af1c2324d10b8c41b1f154bb3ab2cbda8a5f2a22a
