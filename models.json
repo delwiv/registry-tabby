@@ -209,6 +209,14 @@
     "sha256": "dbe8bd6a4b450311304d5e214dc81bd068b76f8d35c6d18e2d2ce3e309b97fab"
   },
   {
+    "name": "dolphincode-sc2",
+    "provider_url": "https://huggingface.co/dranger003/dolphincoder-starcoder2-15b-iMat.GGUF",
+    "urls": [
+      "https://huggingface.co/dranger003/dolphincoder-starcoder2-15b-iMat.GGUF/resolve/main/ggml-dolphincoder-starcoder2-15b-q6_k.gguf"
+    ],
+    "sha256": "6233d61ac97a1f69d28ee26e659715ca37913f29527e1a29bf09cececd086663"
+  },
+  {
     "name": "qwen-14b",
     "provider_url": "https://huggingface.co/Qwen/Qwen1.5-14B-Chat-GGUF",
     "chat_template": " {% if messages[0]['role'] == 'system' %} {% set offset = 1 %} {% else %} {% set offset = 0 %} {% endif %}\n{{ bos_token }} {% for message in messages %} {% if (message['role'] == 'user') != (loop.index0 % 2 == offset) %} {{ raise_exception('Conversation roles must alternate user/assistant/user/assistant/...') }} {% endif %}\n{{ '<|im_start|>' + message['role'] + '\n' + message['content'].strip() + '<|im_end|>\n' }}\n{% if loop.last and message['role'] == 'user' and add_generation_prompt %} {{ '<|im_start|>assistant\n' }} {% endif %} {% endfor %} ",
