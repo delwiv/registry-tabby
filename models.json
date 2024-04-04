@@ -217,12 +217,21 @@
     "sha256": "6233d61ac97a1f69d28ee26e659715ca37913f29527e1a29bf09cececd086663"
   },
   {
+    "chat_template": " {% if messages[0]['role'] == 'system' %} {% set offset = 1 %} {% else %} {% set offset = 0 %} {% endif %}\n{{ bos_token }} {% for message in messages %} {% if (message['role'] == 'user') != (loop.index0 % 2 == offset) %} {{ raise_exception('Conversation roles must alternate user/assistant/user/assistant/...') }} {% endif %}\n{{ '<|im_start|>' + message['role'] + '\n' + message['content'].strip() + '<|im_end|>\n' }}\n{% if loop.last and message['role'] == 'user' and add_generation_prompt %} {{ '<|im_start|>assistant\n' }} {% endif %} {% endfor %} ",
     "name": "qwen-14b",
     "provider_url": "https://huggingface.co/Qwen/Qwen1.5-14B-Chat-GGUF",
-    "chat_template": " {% if messages[0]['role'] == 'system' %} {% set offset = 1 %} {% else %} {% set offset = 0 %} {% endif %}\n{{ bos_token }} {% for message in messages %} {% if (message['role'] == 'user') != (loop.index0 % 2 == offset) %} {{ raise_exception('Conversation roles must alternate user/assistant/user/assistant/...') }} {% endif %}\n{{ '<|im_start|>' + message['role'] + '\n' + message['content'].strip() + '<|im_end|>\n' }}\n{% if loop.last and message['role'] == 'user' and add_generation_prompt %} {{ '<|im_start|>assistant\n' }} {% endif %} {% endfor %} ",
     "urls": [
       "https://huggingface.co/Qwen/Qwen1.5-14B-Chat-GGUF/resolve/main/qwen1_5-14b-chat-q6_k.gguf"
     ],
     "sha256": "0a8e85d4f88d2f7877e8f09af1c2324d10b8c41b1f154bb3ab2cbda8a5f2a22a"
+  },
+  {
+    "chat_template": " {% if messages[0]['role'] == 'system' %} {% set offset = 1 %} {% else %} {% set offset = 0 %} {% endif %}\n{{ bos_token }} {% for message in messages %} {% if (message['role'] == 'user') != (loop.index0 % 2 == offset) %} {{ raise_exception('Conversation roles must alternate user/assistant/user/assistant/...') }} {% endif %}\n{{ '<|im_start|>' + message['role'] + '\n' + message['content'].strip() + '<|im_end|>\n' }}\n{% if loop.last and message['role'] == 'user' and add_generation_prompt %} {{ '<|im_start|>assistant\n' }} {% endif %} {% endfor %} ",
+    "name": "CodeMistral",
+    "provider_url": "https://huggingface.co/bartowski/Code-Mistral-7B-GGUF",
+    "urls": [
+      "https://huggingface.co/bartowski/Code-Mistral-7B-GGUF/resolve/main/Code-Mistral-7B-Q6_K.gguf"
+    ],
+    "sha256": "47be15dde4a65e09e7aa7dcac043927d88da7087f3361d272c9f8587c6d9be67"
   }
 ]
