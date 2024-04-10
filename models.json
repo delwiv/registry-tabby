@@ -209,6 +209,14 @@
     "sha256": "dbe8bd6a4b450311304d5e214dc81bd068b76f8d35c6d18e2d2ce3e309b97fab"
   },
   {
+    "name": "codegemma-2b",
+    "provider_url": "https://huggingface.co/lmstudio-community/codegemma-2b-GGUF",
+    "urls": [
+      "https://huggingface.co/lmstudio-community/codegemma-2b-GGUF/resolve/main/codegemma-2b-Q6_K.gguf"
+    ],
+    "sha256": "b5722a8cd63987e1d9becb4b3d9c9f40dd0b257fd3febf37c6c7cb52ec44318c"
+  },
+  {
     "name": "dolphincode-sc2",
     "provider_url": "https://huggingface.co/dranger003/dolphincoder-starcoder2-15b-iMat.GGUF",
     "urls": [
