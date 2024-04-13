@@ -209,6 +209,14 @@
     "sha256": "dbe8bd6a4b450311304d5e214dc81bd068b76f8d35c6d18e2d2ce3e309b97fab"
   },
   {
+    "name": "codegemma-7b",
+    "provider_url": "https://huggingface.co/bartowski/codegemma-7b-GGUF",
+    "urls": [
+      "https://huggingface.co/bartowski/codegemma-7b-GGUF/resolve/main/codegemma-7b-Q6_K.gguf"
+    ],
+    "sha256": "113f642a52539bba5e6694191e738065bd8357f9378118a654ec80aff6ba3a1f"
+  },
+  {
     "name": "codegemma-2b",
     "provider_url": "https://huggingface.co/lmstudio-community/codegemma-2b-GGUF",
     "urls": [
