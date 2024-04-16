@@ -249,5 +249,13 @@
       "https://huggingface.co/bartowski/Code-Mistral-7B-GGUF/resolve/main/Code-Mistral-7B-Q6_K.gguf"
     ],
     "sha256": "47be15dde4a65e09e7aa7dcac043927d88da7087f3361d272c9f8587c6d9be67"
+  },
+  {
+    "name": "WizardLM-2-7b",
+    "provider_url": "https://huggingface.co/lmstudio-community/WizardLM-2-7B-GGUF",
+    "urls": [
+      "https://huggingface.co/lmstudio-community/WizardLM-2-7B-GGUF/resolve/main/WizardLM-2-7B-Q6_K.gguf"
+    ],
+    "sha256": "1e9dac943fb87cfedd5421478d7e66f5c5f2ecde3daf258052459ef6a96e2cd1"
   }
 ]
