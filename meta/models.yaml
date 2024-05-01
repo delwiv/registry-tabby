@@ -228,3 +228,9 @@
   urls:
     - https://huggingface.co/microsoft/Phi-3-mini-4k-instruct-gguf/resolve/main/Phi-3-mini-4k-instruct-fp16.gguf
   sha256: ad9f8ff11cd096115adc8ff50befa22fc3da2718672ddd2ab30faccd70488605
+
+- name: phi3-mini-q6
+  provider_url: https://huggingface.co/mmnga/Phi-3-mini-128k-instruct-gguf
+  urls:
+    - https://huggingface.co/mmnga/Phi-3-mini-128k-instruct-gguf/resolve/main/Phi-3-mini-128k-instruct-Q6_K.gguf
+  sha256: 1ad194e2c8214f222b973946f48d224dcc18a40a71ff4b8ca7fe02d3864631ce
