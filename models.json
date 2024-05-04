@@ -273,5 +273,13 @@
       "https://huggingface.co/mmnga/Phi-3-mini-128k-instruct-gguf/resolve/main/Phi-3-mini-128k-instruct-Q6_K.gguf"
     ],
     "sha256": "1ad194e2c8214f222b973946f48d224dcc18a40a71ff4b8ca7fe02d3864631ce"
+  },
+  {
+    "name": "llama3-coder",
+    "provider_url": "https://huggingface.co/bartowski/Llama-3-8B-Instruct-Coder-GGUF",
+    "urls": [
+      "https://huggingface.co/bartowski/Llama-3-8B-Instruct-Coder-GGUF/resolve/main/Llama-3-8B-Instruct-Coder-Q6_K.gguf"
+    ],
+    "sha256": "74cfbc10cf1d3bb9066e351837d5c1375cf95f9fb40939c1cb95f19c0fbd7cf6"
   }
 ]
