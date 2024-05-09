@@ -30,3 +30,4 @@ To ensure optimal response quality, and given that latency requirements are not 
 | [TabbyML/Mistral-7B-q5](https://huggingface.co/mistralai/Mistral-7B-v0.2) | [Apache 2.0](https://choosealicense.com/licenses/apache-2.0/) |
 | [TabbyML/qwen-14b](https://huggingface.co/Qwen/Qwen1.5-14B-Chat-GGUF) | []() |
 | [TabbyML/CodeMistral](https://huggingface.co/bartowski/Code-Mistral-7B-GGUF) | []() |
+| [TabbyML/llama3-coder-2](https://huggingface.co/bartowski/Llama-3-8B-Instruct-Coder-v2-GGUF) | []() |

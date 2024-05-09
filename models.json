@@ -281,5 +281,14 @@
       "https://huggingface.co/bartowski/Llama-3-8B-Instruct-Coder-GGUF/resolve/main/Llama-3-8B-Instruct-Coder-Q6_K.gguf"
     ],
     "sha256": "74cfbc10cf1d3bb9066e351837d5c1375cf95f9fb40939c1cb95f19c0fbd7cf6"
+  },
+  {
+    "chat_template": " {% if messages[0]['role'] == 'system' %} {% set offset = 1 %} {% else %} {% set offset = 0 %} {% endif %}\n<|begin_of_text|> {% for message in messages %} {% if (message['role'] == 'user') != (loop.index0 % 2 == offset) %} {{ raise_exception('Conversation roles must alternate user/assistant/user/assistant/...') }} {% endif %}\n{{ '<|start_header_id|>' + message['role'] + '<|end_header_id|>\n' + message['content'].strip() + '<|eot_id|>\n' }}\n{% if loop.last and message['role'] == 'user' and add_generation_prompt %} {{ '<|start_header_id|>assistant<|end_header_id|>\n' }} {% endif %} {% endfor %} ",
+    "name": "llama3-coder-2",
+    "provider_url": "https://huggingface.co/bartowski/Llama-3-8B-Instruct-Coder-v2-GGUF",
+    "urls": [
+      "https://huggingface.co/bartowski/Llama-3-8B-Instruct-Coder-v2-GGUF/resolve/main/Llama-3-8B-Instruct-Coder-v2-Q6_K.gguf"
+    ],
+    "sha256": "7d95053dd0d44d5baacda62d5923b559092f6f6e50b1f13536a46f516d238a9a"
   }
 ]
