@@ -17,6 +17,7 @@ We recommend using
 | [TabbyML/DeepseekCoder-1.3B](https://huggingface.co/deepseek-ai/deepseek-coder-1.3b-base) | [Deepseek License](https://github.com/deepseek-ai/deepseek-coder/blob/main/LICENSE-MODEL) |
 | [TabbyML/DeepseekCoder-6.7B](https://huggingface.co/deepseek-ai/deepseek-coder-6.7b-base) | [Deepseek License](https://github.com/deepseek-ai/deepseek-coder/blob/main/LICENSE-MODEL) |
 | [TabbyML/codefuse-deepseek-33B](https://huggingface.co/TheBloke/deepseek-coder-33B-instruct-GGUF) | [Deepseek License](https://github.com/deepseek-ai/deepseek-coder/blob/main/LICENSE-MODEL) |
+| [TabbyML/codestral](https://huggingface.co/bartowski/Codestral-22B-v0.1-GGUF) | []() |
 
 
 ## Chat models (`--chat-model`)
