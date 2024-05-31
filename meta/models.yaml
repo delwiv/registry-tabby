@@ -270,7 +270,7 @@
   sha256: 7d95053dd0d44d5baacda62d5923b559092f6f6e50b1f13536a46f516d238a9a
 
 - name: codestral
-  prompt_template: "<s>{SUFFIX}{suffix}[PREFIX]{prefix}"
+  prompt_template: "<s>[SUFFIX]{suffix}[PREFIX]{prefix}"
   provider_url: "https://huggingface.co/bartowski/Codestral-22B-v0.1-GGUF"
   urls:
   - "https://huggingface.co/bartowski/Codestral-22B-v0.1-GGUF/resolve/main/Codestral-22B-v0.1-Q6_K.gguf"

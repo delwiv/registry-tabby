@@ -293,7 +293,7 @@
   },
   {
     "name": "codestral",
-    "prompt_template": "<s>{SUFFIX}{suffix}[PREFIX]{prefix}",
+    "prompt_template": "<s>[SUFFIX]{suffix}[PREFIX]{prefix}",
     "provider_url": "https://huggingface.co/bartowski/Codestral-22B-v0.1-GGUF",
     "urls": [
       "https://huggingface.co/bartowski/Codestral-22B-v0.1-GGUF/resolve/main/Codestral-22B-v0.1-Q6_K.gguf"
