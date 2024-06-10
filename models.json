@@ -42,9 +42,9 @@
     "name": "starcoder2-3b",
     "provider_url": "https://huggingface.co/PrunaAI/starcoder2-3b-GGUF-smashed",
     "urls": [
-      "https://huggingface.co/PrunaAI/starcoder2-3b-GGUF-smashed/resolve/main/starcoder2-3b.Q8_0.gguf?download=true"
+      "https://huggingface.co/PrunaAI/starcoder2-3b-GGUF-smashed/resolve/main/starcoder2-3b.Q6_K.gguf"
     ],
-    "sha256": "4dc8d43fbcbcc19de7024b2ce2f58426e42c72274b2ad9c54b233bcc199a4583"
+    "sha256": "372c1370264bd93c005c61cc0aa7f31b18a2984a1265e929416d9590c487cc85"
   },
   {
     "license_name": "Llama 2",
