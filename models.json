@@ -36,6 +36,17 @@
     "sha256": "33dfcc7e216f1a072b4e16cd3bb19a0e55f5874ed319416435c8fc99216b8bfa"
   },
   {
+    "license_name": "BigCode-OpenRAIL-M",
+    "license_url": "https://huggingface.co/spaces/bigcode/bigcode-model-license-agreement",
+    "prompt_template": "<fim_prefix>{prefix}<fim_suffix>{suffix}<fim_middle>",
+    "name": "starcoder2-3b",
+    "provider_url": "https://huggingface.co/PrunaAI/starcoder2-3b-GGUF-smashed",
+    "urls": [
+      "https://huggingface.co/PrunaAI/starcoder2-3b-GGUF-smashed/resolve/main/starcoder2-3b.Q8_0.gguf?download=true"
+    ],
+    "sha256": "4dc8d43fbcbcc19de7024b2ce2f58426e42c72274b2ad9c54b233bcc199a4583"
+  },
+  {
     "license_name": "Llama 2",
     "license_url": "https://github.com/facebookresearch/llama/blob/main/LICENSE",
     "prompt_template": "<PRE> {prefix} <SUF>{suffix} <MID>",

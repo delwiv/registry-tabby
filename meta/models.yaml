@@ -26,6 +26,13 @@
   - https://modelscope.cn/api/v1/models/TabbyML/StarCoder-7B/repo?FilePath=ggml/q8_0.v2.gguf
   sha256: 33dfcc7e216f1a072b4e16cd3bb19a0e55f5874ed319416435c8fc99216b8bfa
 
+- name: starcoder2-3b
+  provider_url: https://huggingface.co/PrunaAI/starcoder2-3b-GGUF-smashed
+  <<: *starcoder-series
+  urls:
+  - https://huggingface.co/PrunaAI/starcoder2-3b-GGUF-smashed/resolve/main/starcoder2-3b.Q8_0.gguf?download=true
+  sha256: 4dc8d43fbcbcc19de7024b2ce2f58426e42c72274b2ad9c54b233bcc199a4583
+
 - name: CodeLlama-7B
   provider_url: https://huggingface.co/codellama/CodeLlama-7b-hf
   <<: &codellama-series
