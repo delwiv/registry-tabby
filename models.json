@@ -122,7 +122,7 @@
     "name": "dscoder-v2-lite",
     "provider_url": "https://huggingface.co/bartowski/DeepSeek-Coder-V2-Lite-Base-GGUF",
     "urls": [
-      "https://huggingface.co/bartowski/DeepSeek-Coder-V2-Lite-Base-GGUF/raw/main/DeepSeek-Coder-V2-Lite-Base-Q6_K_L.gguf"
+      "https://huggingface.co/bartowski/DeepSeek-Coder-V2-Lite-Base-GGUF/resolve/main/DeepSeek-Coder-V2-Lite-Base-Q6_K_L.gguf"
     ],
     "sha256": "dde3ab6bcd3593d3333079a4c39c3a20e93fdfb52ce278bbd267a2fb30cc25e9"
   },
