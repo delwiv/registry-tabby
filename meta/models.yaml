@@ -86,7 +86,6 @@
   - https://huggingface.co/TheBloke/deepseek-coder-1.3b-base-GGUF/resolve/main/deepseek-coder-1.3b-base.Q8_0.gguf
   sha256: 9fcdcb283ef5b1d80ec7365b307c1ceab0c0f8ea079b49969f7febc06a11bccd
 
-
 - name: DeepseekCoder-6.7B
   <<: *deepseek-series
   provider_url: https://huggingface.co/deepseek-ai/deepseek-coder-6.7b-base
@@ -94,6 +93,13 @@
   urls:
   - https://huggingface.co/TheBloke/deepseek-coder-6.7B-base-GGUF/resolve/main/deepseek-coder-6.7b-base.Q5_K_M.gguf
   sha256:	de874d119b3a8e6e7d5ca066cc8e8c0038196c9b3524a50ed2c967a1bcb641b9
+
+- name: dscoder-v2-lite
+  <<: *deepseek-series
+  provider_url: https://huggingface.co/bartowski/DeepSeek-Coder-V2-Lite-Base-GGUF
+  urls:
+  - https://huggingface.co/bartowski/DeepSeek-Coder-V2-Lite-Base-GGUF/raw/main/DeepSeek-Coder-V2-Lite-Base-Q6_K_L.gguf
+  sha256:	dde3ab6bcd3593d3333079a4c39c3a20e93fdfb52ce278bbd267a2fb30cc25e9
 
 - name: codefuse-deepseek-33B
   <<: *deepseek-series
