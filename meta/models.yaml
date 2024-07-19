@@ -289,3 +289,10 @@
   - "https://huggingface.co/bartowski/Codestral-22B-v0.1-GGUF/resolve/main/Codestral-22B-v0.1-Q6_K.gguf"
   sha256: 107e1f2914bf7bac5bd43c4363f738728ba455b6bc62c590df342365ec3f8b3e
 
+- name: mistral-nemo
+  prompt_template: "<s>[SUFFIX]{suffix}[PREFIX]{prefix}"
+  provider_url: "https://huggingface.co/second-state/Mistral-Nemo-Instruct-2407-GGUF"
+  urls: 
+  - "https://huggingface.co/second-state/Mistral-Nemo-Instruct-2407-GGUF/resolve/main/Mistral-Nemo-Instruct-2407-Q6_K.gguf" 
+  sha256: f26a7ed456d33120b9a5b545f23e82c5ca2c4583ed6baa071b994920a56922f1
+

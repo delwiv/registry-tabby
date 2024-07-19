@@ -20,6 +20,7 @@ We recommend using
 | [TabbyML/dscoder-v2-lite-q6](https://huggingface.co/legraphista/DeepSeek-Coder-V2-Lite-Base-IMat-GGUF) | [Deepseek License](https://github.com/deepseek-ai/deepseek-coder/blob/main/LICENSE-MODEL) |
 | [TabbyML/codefuse-deepseek-33B](https://huggingface.co/TheBloke/deepseek-coder-33B-instruct-GGUF) | [Deepseek License](https://github.com/deepseek-ai/deepseek-coder/blob/main/LICENSE-MODEL) |
 | [TabbyML/codestral](https://huggingface.co/bartowski/Codestral-22B-v0.1-GGUF) | []() |
+| [TabbyML/mistral-nemo](https://huggingface.co/second-state/Mistral-Nemo-Instruct-2407-GGUF) | []() |
 
 
 ## Chat models (`--chat-model`)
