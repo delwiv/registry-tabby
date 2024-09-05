@@ -130,6 +130,17 @@
     "license_name": "Deepseek License",
     "license_url": "https://github.com/deepseek-ai/deepseek-coder/blob/main/LICENSE-MODEL",
     "prompt_template": "<｜fim▁begin｜>{prefix}<｜fim▁hole｜>{suffix}<｜fim▁end｜>",
+    "name": "dscoder-v2-lite-q6_k_l",
+    "provider_url": "https://huggingface.co/bartowski/DeepSeek-Coder-V2-Lite-Instruct-GGUF",
+    "urls": [
+      "https://huggingface.co/bartowski/DeepSeek-Coder-V2-Lite-Instruct-GGUF/resolve/main/DeepSeek-Coder-V2-Lite-Instruct-Q6_K_L.gguf"
+    ],
+    "sha256": "9d9244931cd48f36764e7c0707c100603e7d4c95cd588d7b18e01db13bd44471"
+  },
+  {
+    "license_name": "Deepseek License",
+    "license_url": "https://github.com/deepseek-ai/deepseek-coder/blob/main/LICENSE-MODEL",
+    "prompt_template": "<｜fim▁begin｜>{prefix}<｜fim▁hole｜>{suffix}<｜fim▁end｜>",
     "name": "codefuse-deepseek-33B",
     "provider_url": "https://huggingface.co/TheBloke/deepseek-coder-33B-instruct-GGUF",
     "urls": [

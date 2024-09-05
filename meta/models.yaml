@@ -101,6 +101,13 @@
   - https://huggingface.co/legraphista/DeepSeek-Coder-V2-Lite-Base-IMat-GGUF/resolve/main/DeepSeek-Coder-V2-Lite-Base.Q6_K.gguf
   sha256:	f9435713a3957729814f20163796aa3bc68f8fea979c8d2cab994cb4bfebfdc4
 
+- name: dscoder-v2-lite-q6_k_l
+  <<: *deepseek-series
+  provider_url: https://huggingface.co/bartowski/DeepSeek-Coder-V2-Lite-Instruct-GGUF
+  urls:
+  - https://huggingface.co/bartowski/DeepSeek-Coder-V2-Lite-Instruct-GGUF/resolve/main/DeepSeek-Coder-V2-Lite-Instruct-Q6_K_L.gguf
+  sha256:	9d9244931cd48f36764e7c0707c100603e7d4c95cd588d7b18e01db13bd44471
+
 - name: codefuse-deepseek-33B
   <<: *deepseek-series
   provider_url: https://huggingface.co/TheBloke/deepseek-coder-33B-instruct-GGUF
