@@ -9,19 +9,7 @@ We recommend using
 
 | Model ID | License |
 | -------- | ------- |
-| [TabbyML/StarCoder-1B](https://huggingface.co/bigcode/starcoderbase-1b) | [BigCode-OpenRAIL-M](https://huggingface.co/spaces/bigcode/bigcode-model-license-agreement) |
-| [TabbyML/StarCoder-3B](https://huggingface.co/bigcode/starcoderbase-3b) | [BigCode-OpenRAIL-M](https://huggingface.co/spaces/bigcode/bigcode-model-license-agreement) |
-| [TabbyML/StarCoder-7B](https://huggingface.co/bigcode/starcoderbase-7b) | [BigCode-OpenRAIL-M](https://huggingface.co/spaces/bigcode/bigcode-model-license-agreement) |
-| [TabbyML/starcoder2-3b](https://huggingface.co/PrunaAI/starcoder2-3b-GGUF-smashed) | [BigCode-OpenRAIL-M](https://huggingface.co/spaces/bigcode/bigcode-model-license-agreement) |
-| [TabbyML/CodeLlama-7B](https://huggingface.co/codellama/CodeLlama-7b-hf) | [Llama 2](https://github.com/facebookresearch/llama/blob/main/LICENSE) |
-| [TabbyML/CodeLlama-13B](https://huggingface.co/codellama/CodeLlama-13b-hf) | [Llama 2](https://github.com/facebookresearch/llama/blob/main/LICENSE) |
-| [TabbyML/DeepseekCoder-1.3B](https://huggingface.co/deepseek-ai/deepseek-coder-1.3b-base) | [Deepseek License](https://github.com/deepseek-ai/deepseek-coder/blob/main/LICENSE-MODEL) |
-| [TabbyML/DeepseekCoder-6.7B](https://huggingface.co/deepseek-ai/deepseek-coder-6.7b-base) | [Deepseek License](https://github.com/deepseek-ai/deepseek-coder/blob/main/LICENSE-MODEL) |
-| [TabbyML/dscoder-v2-lite-q6](https://huggingface.co/legraphista/DeepSeek-Coder-V2-Lite-Base-IMat-GGUF) | [Deepseek License](https://github.com/deepseek-ai/deepseek-coder/blob/main/LICENSE-MODEL) |
-| [TabbyML/dscoder-v2-lite-q6_k_l](https://huggingface.co/bartowski/DeepSeek-Coder-V2-Lite-Instruct-GGUF) | [Deepseek License](https://github.com/deepseek-ai/deepseek-coder/blob/main/LICENSE-MODEL) |
-| [TabbyML/codefuse-deepseek-33B](https://huggingface.co/TheBloke/deepseek-coder-33B-instruct-GGUF) | [Deepseek License](https://github.com/deepseek-ai/deepseek-coder/blob/main/LICENSE-MODEL) |
-| [TabbyML/codestral](https://huggingface.co/bartowski/Codestral-22B-v0.1-GGUF) | []() |
-| [TabbyML/mistral-nemo](https://huggingface.co/second-state/Mistral-Nemo-Instruct-2407-GGUF) | []() |
+| [TabbyML/qwen2.5-Coder](https://huggingface.co/lmstudio-community/Qwen2.5-Coder-7B-Instruct-GGUF) | []() |
 
 
 ## Chat models (`--chat-model`)
@@ -30,9 +18,3 @@ To ensure optimal response quality, and given that latency requirements are not 
 
 | Model ID | License |
 | -------- | ------- |
-| [TabbyML/WizardCoder-3B](https://huggingface.co/WizardLM/WizardCoder-3B-V1.0) | [BigCode-OpenRAIL-M](https://huggingface.co/spaces/bigcode/bigcode-model-license-agreement) |
-| [TabbyML/Mistral-7B](https://huggingface.co/mistralai/Mistral-7B-v0.1) | [Apache 2.0](https://choosealicense.com/licenses/apache-2.0/) |
-| [TabbyML/Mistral-7B-q5](https://huggingface.co/mistralai/Mistral-7B-v0.2) | [Apache 2.0](https://choosealicense.com/licenses/apache-2.0/) |
-| [TabbyML/qwen-14b](https://huggingface.co/Qwen/Qwen1.5-14B-Chat-GGUF) | []() |
-| [TabbyML/CodeMistral](https://huggingface.co/bartowski/Code-Mistral-7B-GGUF) | []() |
-| [TabbyML/llama3-coder-2](https://huggingface.co/bartowski/Llama-3-8B-Instruct-Coder-v2-GGUF) | []() |
