@@ -18,3 +18,4 @@ To ensure optimal response quality, and given that latency requirements are not 
 
 | Model ID | License |
 | -------- | ------- |
+| [TabbyML/codestral-22b](https://huggingface.co/bartowski/Codestral-22B-v0.1-GGUF) | []() |
