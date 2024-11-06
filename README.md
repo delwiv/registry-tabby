@@ -11,7 +11,7 @@ We recommend using
 | -------- | ------- |
 | [TabbyML/qwen2.5-Coder](https://huggingface.co/lmstudio-community/Qwen2.5-Coder-7B-Instruct-GGUF) | []() |
 | [TabbyML/Qwen2.5-14B-Instruct](https://huggingface.co/Qwen/Qwen2.5-14B-Instruct-GGUF) | [Apache 2.0](https://choosealicense.com/licenses/apache-2.0/) |
-| [TabbyML/Qwen2.5-7B-Instruct](https://huggingface.co/Qwen/Qwen2.5-7B-Instruct-GGUF) | [Apache 2.0](https://choosealicense.com/licenses/apache-2.0/) |
+| [TabbyML/Qwen2.5-7B](https://huggingface.co/Qwen/Qwen2.5-7B-Instruct-GGUF) | [Apache 2.0](https://choosealicense.com/licenses/apache-2.0/) |
 
 
 ## Chat models (`--chat-model`)
@@ -22,4 +22,4 @@ To ensure optimal response quality, and given that latency requirements are not 
 | -------- | ------- |
 | [TabbyML/codestral-22b](https://huggingface.co/bartowski/Codestral-22B-v0.1-GGUF) | []() |
 | [TabbyML/Qwen2.5-14B-Instruct](https://huggingface.co/Qwen/Qwen2.5-14B-Instruct-GGUF) | [Apache 2.0](https://choosealicense.com/licenses/apache-2.0/) |
-| [TabbyML/Qwen2.5-7B-Instruct](https://huggingface.co/Qwen/Qwen2.5-7B-Instruct-GGUF) | [Apache 2.0](https://choosealicense.com/licenses/apache-2.0/) |
+| [TabbyML/Qwen2.5-7B](https://huggingface.co/Qwen/Qwen2.5-7B-Instruct-GGUF) | [Apache 2.0](https://choosealicense.com/licenses/apache-2.0/) |
