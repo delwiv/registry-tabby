@@ -4,4 +4,9 @@
   urls:
   - https://huggingface.co/lmstudio-community/Qwen2.5-Coder-7B-Instruct-GGUF/resolve/main/Qwen2.5-Coder-7B-Instruct-Q8_0.gguf
   sha256:	24b532e5276503b147d0eea0e47cb1d2bcce7c9034edd657b624261862ca54a1
+- name: codestral-22b
+  provider_url: https://huggingface.co/bartowski/Codestral-22B-v0.1-GGUF
+  urls:
+  - https://huggingface.co/bartowski/Codestral-22B-v0.1-GGUF/resolve/main/Codestral-22B-v0.1-Q4_K_M.gguf
+  sha256:	003e48ed892850b80994fcddca2bd6b833b092a4ef2db2853c33a3144245e06c
 
