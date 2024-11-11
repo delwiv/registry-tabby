@@ -1,5 +1,14 @@
 [
   {
+    "name": "qwen2.5-Coder-q4",
+    "provider_url": "https://huggingface.co/lmstudio-community/Qwen2.5-Coder-7B-Instruct-GGUF",
+    "prompt_template": "<fim_prefix>{prefix}<fim_suffix>{suffix}<fim_middle>",
+    "urls": [
+      "https://huggingface.co/lmstudio-community/Qwen2.5-Coder-7B-Instruct-GGUF/resolve/main/Qwen2.5-Coder-7B-Instruct-Q4_K_M.gguf"
+    ],
+    "sha256": "7ec3d5cfd560c5eac34e6c377c0bbc2bda389b282dca2b28bc31e621d26929a7"
+  },
+  {
     "name": "qwen2.5-Coder",
     "provider_url": "https://huggingface.co/lmstudio-community/Qwen2.5-Coder-7B-Instruct-GGUF",
     "prompt_template": "<fim_prefix>{prefix}<fim_suffix>{suffix}<fim_middle>",

@@ -9,6 +9,7 @@ We recommend using
 
 | Model ID | License |
 | -------- | ------- |
+| [TabbyML/qwen2.5-Coder-q4](https://huggingface.co/lmstudio-community/Qwen2.5-Coder-7B-Instruct-GGUF) | []() |
 | [TabbyML/qwen2.5-Coder](https://huggingface.co/lmstudio-community/Qwen2.5-Coder-7B-Instruct-GGUF) | []() |
 | [TabbyML/Qwen2.5-14B-Instruct](https://huggingface.co/Qwen/Qwen2.5-14B-Instruct-GGUF) | [Apache 2.0](https://choosealicense.com/licenses/apache-2.0/) |
 | [TabbyML/Qwen2.5-7B](https://huggingface.co/Qwen/Qwen2.5-7B-Instruct-GGUF) | [Apache 2.0](https://choosealicense.com/licenses/apache-2.0/) |
